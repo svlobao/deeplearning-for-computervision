@@ -23,22 +23,31 @@ class NearestNeighbor:
     def __init__(self) -> None:
         pass
 
-    def absolute_element_sum(self, diff: numpy.ndarray) -> int:
+    def _absolute_element_sum(self, diff: numpy.ndarray) -> int:
         result = 0
+
+        # print("\n", diff, "\n")
+
         for row in diff:
             for element in row:
                 if element < 0:
                     result += -element
                 else:
                     result += element
+
+        # print("\n", result, "\n")
+
         return result
 
-    def shape(self, arr: numpy.ndarray) -> tuple:
+    def _shape(self, arr: numpy.ndarray) -> tuple:
         if not isinstance(arr, numpy.ndarray):
             raise TypeError("Input array should be of type numpy.array.\n")
+
+        # print("\n", (len(arr), len(arr[0])), "\n", numpy.shape(arr))
+
         return (len(arr), len(arr[0]))
 
-    def L1_distance(self, arr_1: numpy.ndarray, arr_2: numpy.ndarray) -> int:
+    def _L1_distance(self, arr_1: numpy.ndarray, arr_2: numpy.ndarray) -> int:
         """
         arr_1 and arr_2 should:
 
@@ -48,54 +57,54 @@ class NearestNeighbor:
         returns the scalar (int) that represents the L1 "Manhattan" distance.
 
         """
-        if self.shape(arr_1) != self.shape(arr_2):
+        if self._shape(arr_1) != self._shape(arr_2):
             raise IndexError("The dimensions of both matrices are not equal.\n")
         if len(arr_1) == 0:
             raise IndexError("Dimension of matrices cannot be 0.\n")
-        distance = self.absolute_element_sum(arr_1 - arr_2)
+        distance = self._absolute_element_sum(arr_1 - arr_2)
+
+        # print(distance)
 
         return distance
 
-    def min(self, arr: numpy.ndarray) -> int:
+    def _min(self, arr: numpy.ndarray) -> int:
         """
         This method returns the index of the minimum value in an array.
 
-        It does not consider the possibility of 'arr' having two or more identifical minimum values.
+        If two or more minimum distances are found, then it will return the last seen index
         """
-        if not arr:
+        if len(arr) == 0:
             raise ValueError("Input array is empty.\n")
-        min_value = numpy.inf
+        min_value = arr[0]
         curr = 0
         for i in range(len(arr)):
             if arr[i] < min_value:
                 curr = i
+        # print(curr)
         return curr
 
     def train(self, images: list, labels: list) -> None:
         self.x = images
         self.y = labels
+        # print("\n", self.x, "\n\n", self.y, "\n\n")
 
         if len(self.x) != len(self.y):
             raise IndexError(
                 "The number of labels is different from the number of images.\n"
             )
 
-    def predict(
-        self, test_image: numpy.ndarray
-    ) -> tuple[
-        int, str
-    ]:  # TODO: Not working correctly. Always predicting to last image
+    def predict(self, test_image: numpy.ndarray) -> tuple[int, str]:
         distances = []
         for img in self.x:
-            distances.append(self.L1_distance(img, test_image))
-        return (self.min(distances), self.y[self.min(distances)])
+            distances.append(self._L1_distance(img, test_image))
+        return (self._min(distances), self.y[self._min(distances)])
 
 
 if __name__ == "__main__":
     train_images = [
         numpy.array([[1, 1], [2, 2]]),
         numpy.array([[1, 3], [1, 3]]),
-        numpy.array([[200, 400], [400, 200]]),
+        numpy.array([[5, 24], [12, 11]]),
     ]
 
     train_labels = [
@@ -107,13 +116,15 @@ if __name__ == "__main__":
     test_images = [
         numpy.array([[1, 1], [2, 2]]),
         numpy.array([[1, 5], [1, 5]]),
-        numpy.array([[3, 10], [10, 2]]),
+        numpy.array([[0, 0], [0, 0]]),
     ]
 
     nn = NearestNeighbor()
     nn.train(images=train_images, labels=train_labels)
     predict = []
-    for test_img in test_images:
-        predict.append(nn.predict(test_image=test_img))
+    for img in test_images:
+        predict.append(
+            nn.predict(test_image=img),
+        )
 
     print(predict)
