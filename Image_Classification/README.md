@@ -18,9 +18,13 @@ Lecture talks about:
 
 ### Implementations
 
-- Nearest Neighbor:
+- [x] Nearest Neighbor
 
 ### Conclusion:
+
+**Nearest Neighbor** is a relatively simple algorithm. I haven't fed real images to it yet, because the main objective of this study was to actually use as little as possible built-in functions to implement the algorithm - _that is why I created a method even to compute the absolute difference between two matrices, to avoid using numpy.abs()_.
+
+I liked implementing this algorithm because I got to refresh a few OOP principles, as well as this marked the day I first wrote a unit testing in Python - I had a few experiences running unit tests in Dart/Flutter back in 2020, but I was mainly following tutorials. This time I got to start thinking the tests by myself and figuring out ways to make them work and reflect the actual functionality of the program. In fact, I even added some exceptions to make the Nearest Neighbor class methods more fault proof.
 
 ### References:
 
