@@ -8,5 +8,5 @@ I feel it gives one a good perspective on what's going on behind the curtains, a
 
 ### Roadmap:
 
-- Nearest Neighbors (NN)
-- K Nearest Neighbors (KNN)
+- [ x ] Nearest Neighbors (NN)
+- [ ] K Nearest Neighbors (KNN)

@@ -83,10 +83,12 @@ class NearestNeighbor:
         # print(curr)
         return curr
 
-    def train(self, images: list, labels: list) -> None:
+    def train(self, images: list, labels: list) -> tuple:
         self.x = images
         self.y = labels
         # print("\n", self.x, "\n\n", self.y, "\n\n")
+
+        return (images, labels)
 
         if len(self.x) != len(self.y):
             raise IndexError(
@@ -100,7 +102,7 @@ class NearestNeighbor:
         return (self._min(distances), self.y[self._min(distances)])
 
 
-if __name__ == "__main__":
+def load_data():
     train_images = [
         numpy.array([[1, 1], [2, 2]]),
         numpy.array([[1, 3], [1, 3]]),
@@ -118,6 +120,17 @@ if __name__ == "__main__":
         numpy.array([[1, 5], [1, 5]]),
         numpy.array([[0, 0], [0, 0]]),
     ]
+
+    return (
+        train_images,
+        train_labels,
+        test_images,
+    )
+
+
+if __name__ == "__main__":
+
+    train_images, train_labels, test_images = load_data()
 
     nn = NearestNeighbor()
     nn.train(images=train_images, labels=train_labels)
