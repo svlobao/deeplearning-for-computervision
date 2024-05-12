@@ -1,0 +1,1520 @@
+INFO:root:Initiated logging...
+
+
+INFO:root:1. Loaded test images.
+
+
+INFO:root:2. Currently testing image: 
+
+[[ 5 24]
+ [12 11]]
+
+
+INFO:root:3. Called predict().
+
+
+INFO:root:4. Called _train().
+
+
+INFO:root:5. SUCCESS: finished training the model.
+
+
+INFO:root:6. Called _distance().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:6. Called _distance().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:6. Called _distance().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:6. Called _distance().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:6. Called _distance().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:6. Called _distance().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:6. Called _distance().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:6. Called _distance().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:6. Called _distance().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:6. Called _distance().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:7. SUCCESS: computed all distances.
+
+
+INFO:root:8. Called _find_neighbors().
+
+
+INFO:root:8. SUCCESS: found all 1 neighbors: 
+
+[(array([[ 5, 24],
+       [12, 11]]), 'image_3', 0)]
+
+
+INFO:root:9. Decompacting labels: 
+('image_3',)
+
+
+INFO:root:10. SUCCESS: finished predicting. The given test image is labeled as: image_3
+
+
+INFO:root:
+
+Initiated logging...
+
+
+INFO:root:1. Loaded test images.
+
+
+INFO:root:2. Currently testing image: 
+
+[[ 5 24]
+ [12 11]]
+
+
+INFO:root:3. Called predict().
+
+
+INFO:root:4. Called _train().
+
+
+INFO:root:5. SUCCESS: finished training the model.
+
+
+INFO:root:6. Called _distance().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:6. Called _distance().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:6. Called _distance().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:6. Called _distance().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:6. Called _distance().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:6. Called _distance().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:6. Called _distance().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:6. Called _distance().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:6. Called _distance().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:6. Called _distance().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:7. SUCCESS: computed all distances.
+
+
+INFO:root:8. Called _find_neighbors().
+
+
+INFO:root:8. SUCCESS: found all 1 neighbors: 
+
+[(array([[ 5, 24],
+       [12, 11]]), 'image_3', 0)]
+
+
+INFO:root:9. Decompacting labels: 
+('image_3',)
+
+
+INFO:root:10. SUCCESS: finished predicting. The given test image is labeled as: image_3
+
+
+INFO:root:
+
+Initiated logging...
+
+
+INFO:root:1. Loaded test images.
+
+
+INFO:root:2. Currently testing image: 
+
+[[ 5 24]
+ [12 11]]
+
+
+INFO:root:3. Called predict().
+
+
+INFO:root:4. Called _train().
+
+
+INFO:root:5. SUCCESS: finished training the model.
+
+
+INFO:root:6. Called _distance().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:6. Called _distance().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:6. Called _distance().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:6. Called _distance().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:6. Called _distance().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:6. Called _distance().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:6. Called _distance().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:6. Called _distance().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:6. Called _distance().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:6. Called _distance().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:7. SUCCESS: computed all distances.
+
+
+INFO:root:8. Called _find_neighbors().
+
+
+INFO:root:8. SUCCESS: found all 2 neighbors: 
+
+[(array([[ 5, 24],
+       [12, 11]]), 'image_3', 0), (array([[ 2, 54],
+       [12, 11]]), 'image_3', 33)]
+
+
+INFO:root:9. Decompacting labels: 
+('image_3', 'image_3')
+
+
+INFO:root:10. SUCCESS: finished predicting. The given test image is labeled as: image_3
+
+
+INFO:root:
+
+Initiated logging...
+
+
+INFO:root:1. Loaded test images.
+
+
+INFO:root:2. Currently testing image: 
+
+[[ 5 24]
+ [12 11]]
+
+
+INFO:root:3. Called predict().
+
+
+INFO:root:4. Called _train().
+
+
+INFO:root:5. SUCCESS: finished training the model.
+
+
+INFO:root:6. Called _distance().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:6. Called _distance().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:6. Called _distance().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:6. Called _distance().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:6. Called _distance().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:6. Called _distance().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:6. Called _distance().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:6. Called _distance().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:6. Called _distance().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:6. Called _distance().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:7. SUCCESS: computed all distances.
+
+
+INFO:root:8. Called _find_neighbors().
+
+
+INFO:root:8. SUCCESS: found all 2 neighbors: 
+
+[(array([[ 5, 24],
+       [12, 11]]), 'image_3', 0), (array([[ 2, 54],
+       [12, 11]]), 'image_3', 33)]
+
+
+INFO:root:9. Decompacting labels: 
+('image_3', 'image_3')
+
+
+INFO:root:10. SUCCESS: finished predicting. The given test image is labeled as: image_3
+
+
+INFO:root:
+
+Initiated logging...
+
+
+INFO:root:1. Loaded test images.
+
+
+INFO:root:2. Currently testing image: 
+
+[[ 5 24]
+ [12 11]]
+
+
+INFO:root:3. Called predict().
+
+
+INFO:root:4. Called _train().
+
+
+INFO:root:5. SUCCESS: finished training the model.
+
+
+INFO:root:6. Called _distance().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:6. Called _distance().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:6. Called _distance().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:6. Called _distance().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:6. Called _distance().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:6. Called _distance().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:6. Called _distance().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:6. Called _distance().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:6. Called _distance().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:6. Called _distance().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:7. SUCCESS: computed all distances.
+
+
+INFO:root:8. Called _find_neighbors().
+
+
+INFO:root:8. SUCCESS: found all 3 neighbors: 
+
+[(array([[ 5, 24],
+       [12, 11]]), 'image_3', 0), (array([[ 2, 54],
+       [12, 11]]), 'image_3', 33), (array([[ 4,  2],
+       [ 1, 11]]), 'image_1', 34)]
+
+
+INFO:root:9. Decompacting labels: 
+('image_3', 'image_3', 'image_1')
+
+
+INFO:root:10. SUCCESS: finished predicting. The given test image is labeled as: image_3
+
+
+INFO:root:
+
+Initiated logging...
+
+
+INFO:root:1. Loaded test images.
+
+
+INFO:root:2. Currently testing image: 
+
+[[ 5 24]
+ [12 11]]
+
+
+INFO:root:3. Called predict().
+
+
+INFO:root:4. Called _train().
+
+
+INFO:root:5. SUCCESS: finished training the model.
+
+
+INFO:root:6. Called _distance().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:6. Called _distance().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:6. Called _distance().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:6. Called _distance().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:6. Called _distance().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:6. Called _distance().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:6. Called _distance().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:6. Called _distance().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:6. Called _distance().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:6. Called _distance().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:7. Called _shape().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:8. Called _abs().
+
+
+INFO:root:7. SUCCESS: computed all distances.
+
+
+INFO:root:8. Called _find_neighbors().
+
+
+INFO:root:8. SUCCESS: found all 3 neighbors: 
+
+[(array([[ 5, 24],
+       [12, 11]]), 'image_3', 0), (array([[ 2, 54],
+       [12, 11]]), 'image_3', 33), (array([[ 4,  2],
+       [ 1, 11]]), 'image_1', 34)]
+
+
+INFO:root:9. Decompacting labels: 
+('image_3', 'image_3', 'image_1')
+
+
+INFO:root:10. SUCCESS: finished predicting. The given test image is labeled as: image_3
+
+Also, here's the distance vector: 
+
+[46, 44, 0, 34, 43, 36, 43, 64, 40, 33]
+
+
