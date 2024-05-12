@@ -109,6 +109,9 @@ class NearestNeighbor:
 
     def predict(self, test_image: numpy.ndarray, k: int) -> dict:
         logging.info("3. Called predict().\n\n")
+
+        self._train()
+
         if k < 1:
             raise ValueError(
                 f"It is not possible to classify for less than one neighbor. Therefore, {k} is not a valid number for 'k'.\n"
@@ -117,8 +120,10 @@ class NearestNeighbor:
             raise TypeError(
                 f"'k' should be an integer. Thus, the value {k} is not valid.\n"
             )
-
-        self._train()
+        if k > len(self.y):
+            raise ValueError(
+                f"'k' should be equal or less the total amount of training samples, which is {len(self.y)}. 'k = {k}' was passed."
+            )
 
         distances = []
         for img in self.x:
@@ -209,7 +214,7 @@ if __name__ == "__main__":
 
     predict = []
     # k_neighbors = [1, 2, 3, 4, 5]
-    k_neighbors = [3]
+    k_neighbors = [300]
 
     for k in k_neighbors:
         for img in test_images:

@@ -1518,3 +1518,49 @@ Also, here's the distance vector:
 [46, 44, 0, 34, 43, 36, 43, 64, 40, 33]
 
 
+INFO:root:
+
+Initiated logging...
+
+
+INFO:root:1. Loaded test images.
+
+
+INFO:root:2. Currently testing image: 
+
+[[ 5 24]
+ [12 11]]
+
+
+INFO:root:3. Called predict().
+
+
+INFO:root:4. Called _train().
+
+
+INFO:root:5. SUCCESS: finished training the model.
+
+
+INFO:root:
+
+Initiated logging...
+
+
+INFO:root:1. Loaded test images.
+
+
+INFO:root:2. Currently testing image: 
+
+[[ 5 24]
+ [12 11]]
+
+
+INFO:root:3. Called predict().
+
+
+INFO:root:4. Called _train().
+
+
+INFO:root:5. SUCCESS: finished training the model.
+
+
