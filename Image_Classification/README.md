@@ -26,7 +26,11 @@ Lecture talks about:
 
 I liked implementing this algorithm because I got to refresh a few OOP principles, as well as this marked the day I first wrote a unit testing in Python - I had a few experiences running unit tests in Dart/Flutter back in 2020, but I was mainly following tutorials. This time I got to start thinking the tests by myself and figuring out ways to make them work and reflect the actual functionality of the program. In fact, I even added some exceptions to make the Nearest Neighbor class methods more fault proof.
 
-Finally, Nearest Neighbor has a complexity of O(1) at training time and O(n) at test time, which is "the opposite" of what we want. It is preferrable that the computing time burden is shifted towards the training rather than testing.
+Nearest Neighbor has a complexity of O(1) at training time and O(n) at test time, which is "the opposite" of what we want. It is preferrable that the computing time burden is shifted towards the training rather than testing.
+
+In this lecture, Justin shows that kNN algorithm is not a good choice to classify over raw pixels. One reason in particular is the **Curse of Dimensionality**, where the amount of training samples needed by kNN to perform well grows exponentially with training data dimension.
+
+Finally, Justin leaves a cliff hanger by sharing that kNNs does actually provide value by computing over feature vectors, rather than raw pixels - as when those feature vectors were provided by a CNN.
 
 ### References:
 

@@ -1,3 +1,4 @@
 __pycache__/
 .py_test_cache/
-/.ipynb
+test.ipynb
+sketch.txt
