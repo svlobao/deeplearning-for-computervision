@@ -18,10 +18,9 @@ Algorithm:
 
 #TODO: 
 
-    - Implement train + test + val splits
-        - val is for tunning hyperparameters
-        - test is unseen data and final metric
+    - Add more unit tests
     - Implement evaluation metrics
+        - alter split() to divide dataset into folds of 5%
         - k-fold cross-validation
     - Execute code on real dataset
     
@@ -124,17 +123,6 @@ class NearestNeighbor:
         self.x = list(zip(*train_data))[0]  # images
         self.y = list(zip(*train_data))[1]  # labels
 
-        if len(self.x) != len(self.y):
-            raise IndexError(
-                "The number of labels is different from the number of images.\n"
-            )
-        if len(self.x) == 0:
-            raise ValueError("Training images list is empty.\n")
-        if len(self.y) == 0:
-            raise ValueError("Training labels list is empty.\n")
-
-        logging.info("5. SUCCESS: finished training the model.\n\n")
-
     def predict(
         self, train_data: list[tuple], val_data: list[tuple], k_neighbors: int
     ) -> dict:  # Should call predict() for every k
@@ -153,13 +141,12 @@ class NearestNeighbor:
             raise ValueError("val_data is empty.\n")
 
         self._train(train_data)
-        
+
         if k_neighbors > len(self.y):
             raise ValueError(
                 f"'k' should be equal or less the total amount of training samples, which is {len(self.y)}. 'k = {k_neighbors}' was passed."
             )
-        
-        
+
         val_images = list(zip(*val_data))[0]
         val_labels = list(zip(*val_data))[1]
 
@@ -217,7 +204,9 @@ class Data:
 
         return list(zip(images, labels))
 
-    def split(self, input: list[tuple[numpy.ndarray, str]], train: int, val: int, test: int):
+    def split(
+        self, input: list[tuple[numpy.ndarray, str]], train: int, val: int, test: int
+    ):
         """
         - 'input': is a list whose elements is a tuple of an image and its label
         - 'train', 'val' and 'test' are the portions for each batch size in percentage of the original data. Example: 80, 10, 10.
